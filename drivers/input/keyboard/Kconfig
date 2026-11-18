@@ -806,4 +806,10 @@ config KEYBOARD_CYPRESS_SF
 	  To compile this driver as a module, choose M here: the
 	  module will be called cypress-sf.
 
+config KEYBOARD_ARES_MSX
+    tristate "ARES MSX matrix keyboard"
+    help
+      Driver for the ARES FPGA MSX-style matrix keyboard
+      controller.
+
 endif
