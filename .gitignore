@@ -10,6 +10,7 @@
 #
 # Normal rules (sorted alphabetically)
 #
+
 .*
 *.a
 *.asn1.[ch]
@@ -113,6 +114,7 @@ modules.order
 !.clang-format
 !.clippy.toml
 !.cocciconfig
+!.config
 !.editorconfig
 !.get_maintainer.ignore
 !.gitattributes
